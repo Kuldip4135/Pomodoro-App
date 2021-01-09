@@ -2,7 +2,7 @@ let countDown;
 const timerDisplay = document.querySelector(".display__time-left");
 const endTime = document.querySelector(".display__end-time");
 const buttons = document.querySelectorAll("[data-time]");
-const alarmSound = new Audio("./sound/alarm.mp3");
+const alarmSound = new Audio("./sound/alarm-2.mp3");
 alarmSound.pause();
 
 const timer = (seconds) => {
