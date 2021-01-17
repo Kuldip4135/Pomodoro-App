@@ -17,12 +17,15 @@ const timer = (seconds) => {
 
   countDown = setInterval(() => {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
-    if (secondsLeft <= 0) { 
+    if (secondsLeft <= 0) {
       alarmSound.play();
       clearInterval(countDown);
+      document.querySelector("body").classList.add("timesup");
+      document.title = "Come Back";
 
       setInterval(() => {
         alarmSound.pause();
+        document.querySelector("body").classList.remove("timesup");
       }, 30000);
       return;
     }
