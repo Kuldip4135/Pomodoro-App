@@ -57,3 +57,21 @@ input {
   color: #f0edcc;
   border: 1px solid #f0edcc;
 }
+
+.timesup {
+  animation: comeback 1s linear infinite;
+}
+
+@keyframes comeback {
+  0% {
+    background: #02343f;
+  }
+
+  50% {
+    background: red;
+  }
+
+  100% {
+    background: #02343f;
+  }
+}
