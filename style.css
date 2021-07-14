@@ -64,7 +64,7 @@ input {
 
 @keyframes comeback {
   0% {
-    background: #02343f;
+    background: #000;
   }
 
   50% {
@@ -72,6 +72,6 @@ input {
   }
 
   100% {
-    background: #02343f;
+    background: #000;
   }
 }
