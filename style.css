@@ -28,7 +28,7 @@ body {
 }
 
 .display {
-  color: #000;
+  color: #eee;
   font-size: 3rem;
   line-height: 5rem;
   flex-direction: column;
